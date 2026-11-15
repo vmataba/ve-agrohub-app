@@ -37,7 +37,7 @@ class VeStockUnitTest {
     @Test
     fun inventoryItemWithDetails_calculatesTotalValueAndLowStock() {
         val store = Store("store_1", "Arusha Central", "Arusha")
-        val product = ProductType("prod_1", "NPK 50kg", "Fertilizer", 120000L)
+        val product = ProductType("prod_1", "NPK 50kg", "Fertilizer", priceTzs = 120000L)
 
         val healthyItem = InventoryItem("inv_1", store.id, product.id, quantity = 50, minStockAlertThreshold = 10)
         val healthyDetails = InventoryItemWithDetails(healthyItem, store, product)
