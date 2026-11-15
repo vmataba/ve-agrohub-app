@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Circle Background in Forest Green -->
+    <path
+        android:fillColor="#124E2A"
+        android:pathData="M60,10 A50,50 0 1,1 59.9,10 Z" />
+
+    <!-- Outer Decorative Ring in Gold -->
+    <path
+        android:strokeColor="#D4A017"
+        android:strokeWidth="3"
+        android:pathData="M60,16 A44,44 0 1,1 59.9,16 Z" />
+
+    <!-- Sprout / Leaf Graphic in Gold and Cream -->
+    <!-- Left Leaf -->
+    <path
+        android:fillColor="#D4A017"
+        android:pathData="M60,65 C45,55 35,40 45,28 C58,35 60,50 60,65 Z" />
+
+    <!-- Right Leaf -->
+    <path
+        android:fillColor="#FAF8F5"
+        android:pathData="M60,65 C75,55 85,40 75,28 C62,35 60,50 60,65 Z" />
+
+    <!-- Central Stem & Shield Base -->
+    <path
+        android:fillColor="#D4A017"
+        android:pathData="M58,60 L62,60 L62,88 L58,88 Z" />
+
+    <path
+        android:fillColor="#FAF8F5"
+        android:pathData="M48,82 L72,82 L60,94 Z" />
+</vector>
